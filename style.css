@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+:root{
+--rf-brand: #32BC81;
+--rf-brand-rgb: 50, 188, 129;
+--rf-dark: #212237;
+--rf-body: #203D3F;
+--f-main: "Libre Baskerville", sans-serif;
+--transition: all.6s cubic-bezier(. 165, .84,. 44, 1);
+--shadow: 0px, 15px, 30px, rgba(0,0,0,0.1);
+}
+
+body{
+  font-family: var(--f-main);
+  color: var(--rf-body);
+  line-height: 1,8;
+}
+
+h1, .h1 h2, .h2 h3, .h3 h4, .h4 h5, .h5 h6, .h6 {
+  font-weight: 600;
+  color:var(--rf-body);
+  font-family: var(--f-main);
+}
+
+.text-brand {
+  color: var(--rf-brand);
+}
+
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar.scrolled {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.but{
+  background-color: var(--rf-brand);
+}
+
+#Home  {
+  background-image: url(azmi.png);
+  background-position: left;
+  background-size: cover;
+}
+
+#apaituTheoTown {
+  font-size: 20px;
+}
+.btn-brand{
+  background-color: var(--rf-brand);
+}
+.section-padding{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.section-title{
+  max-width: 550px;
+  margin: 0 auto 60px auto;
+}
+
+.section-title .line {
+  width: 100px;
+  height: 6px;
+  background-color: var(--rf-brand);
+  display: inline-block;
+}
+
+.About-icon {
+  width: 50px;
+  height: 55px;
+  color: #203D3F;
+  font-size: 40px;
+  align-items: center;
+  background-color: var(--rf-brand) ;
+  display: inline-flex;
+  justify-content: center;
+}
+
+
+.center-container {
+    text-align: center;
+}
+
+.center-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#Contact .form-control{
+  border-radius: 2;
+}
+#Contact .form-control:focus{
+  box-shadow: none;
+  border-color: var(--rf-brand);
+}
+
+#Contact input.form-control{
+  height: 40px;
+}
+
+footer{
+  background-color: var(--rf-dark);
+  padding-top: 85px;
+}
+footer h4{
+  color: var(--rf-brand);
+}
+
+footer p,
+footer li,
+footer li a{
+  color: rgba(255,255,255, 0.7);
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-top {
+  padding-bottom: 40px;
+  border-bottom: 1px rgba(255,255,255,0.2);
+  
+}
+
+.footer-bottom {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
